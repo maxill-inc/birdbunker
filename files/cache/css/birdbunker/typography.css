@@ -1,0 +1,74 @@
+h1 {
+	margin-bottom:0;
+	margin-left:10px;
+	font-size: 22px;
+	}
+	
+h2 {
+	margin-bottom:0;
+	margin-left:10px;
+	font-size: 20px;
+	}
+	
+h3 {
+	margin-left:10px;
+	font-size: 18px;
+	}
+	
+p {
+	margin-left:10px;
+	margin-right:10px;
+}
+	
+.button-mdw {
+  -moz-transition: background-position 0.3s ease-in-out 0s;
+  background: url(/themes/birdbunker/images/button.png) repeat-x scroll 0 0 transparent;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  color: #FFFFFF;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 18px;
+  margin: 5px 2px 5px 0px;
+  padding: 5px 10px;
+  text-decoration: none;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
+  background-color: #318cb5;
+
+}
+.button-mdw:after  {
+    background-repeat: no-repeat;
+	content : url(/themes/birdbunker/images/arrow_right.png);
+    float: right;
+    margin-top: 2px;
+    padding-left: 10px;
+}
+.button-mdw:hover {
+  background-position: 0 -20px;
+  color: #FFFFFF;
+  text-decoration:none;
+}
+
+.img-thumbnail {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: none;
+
+}
+
+/* C5 CMS conflict fixes
+-------------------------------------------------- */
+.ccm-ui .popover.below .arrow {
+	border-top-style: none !important;
+}
+.ccm-input-text {
+	height: 100% !important;
+}
+.div.ccm-ui button, div.ccm-ui input {
+	height: 100%;
+}

@@ -1,0 +1,29 @@
+div.ccm-page-list-rss-icon {margin-top: 10px}
+
+.ccm-page-list-head {
+	padding-left:20px;
+	padding-bottom:10px;
+	border-bottom: thin solid #EEEEEE; 
+	margin-left:0px;
+}
+.ccm-page-list-wrap {
+	border: thin solid #EEEEEE; 	
+	border-radius: 5px;
+}
+.ccm-page-list-title {
+	margin: 1px 0px 1px 0px;
+	border-bottom: thin solid #EEEEEE; 
+	padding:7px 20px 10px 20px;
+	text-decoration:none;
+	line-height:100%;
+}
+
+.ccm-page-list-title a {
+	text-decoration:none;
+	font-size:14px;
+	color:#000;
+	}
+.ccm-page-list-title a:hover {
+	text-decoration:none;
+	color:#c3973e;
+}

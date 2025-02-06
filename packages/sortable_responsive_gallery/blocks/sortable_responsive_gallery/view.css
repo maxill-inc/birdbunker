@@ -1,0 +1,6 @@
+.sortable_responsive_gallery_container {width:100%;float:none;margin:0 auto;padding: 0}
+.sortable_responsive_gallery_image {margin:0 auto;float:left;text-align:center; padding: 1%;}
+.sortable_responsive_gallery_image img{max-width:98%;margin:auto;height: auto; border-radius:5px; border:thin #8b6219
+solid;}
+@media screen and (max-width : 800px){.sortable_responsive_gallery_image {margin:auto;float:left;text-align:center;width:50% !important}}
+@media screen and (max-width : 520px){.sortable_responsive_gallery_image {margin:auto;float:none;text-align:center;width:auto !important}.sortable_responsive_gallery_image img{max-width:100%;margin:auto;height: auto}}
